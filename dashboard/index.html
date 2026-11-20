@@ -1,55 +1,71 @@
 <!doctype html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
-    <meta name='theme-color' content='#173e32' />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173e32" />
     <title>Token Radar — sealed launch research</title>
-    <link rel='stylesheet' href='app.css' />
-    <script defer src='../data.js'></script>
-    <script defer src='app.js'></script>
+    <link rel="stylesheet" href="app.css" />
+    <script defer src="../data.js"></script>
+    <script defer src="app.js"></script>
   </head>
   <body>
-    <aside class='sidebar'>
-      <a class='brand' href='#board' aria-label='Token Radar home'><span class='radar-mark' aria-hidden='true'><i></i></span><span>token<span class='brand-light'>radar</span><small>LAUNCH RESEARCH</small></span></a>
-      <div class='nav-label'>WORKSPACE</div>
-      <nav aria-label='Main navigation'>
-        <a href='#board' id='nav-board'><span aria-hidden='true'>▦</span> Launch board
-          <span class='nav-count' id='nav-count'></span></a>
-        <a href='#method' id='nav-method'><span aria-hidden='true'>≋</span> Methodology</a>
+    <aside class="sidebar">
+      <a class="brand" href="#board" aria-label="Token Radar home"
+        ><span class="radar-mark" aria-hidden="true"><i></i></span
+        ><span
+          >token<span class="brand-light">radar</span
+          ><small>LAUNCH RESEARCH</small></span
+        ></a
+      >
+      <div class="nav-label">WORKSPACE</div>
+      <nav aria-label="Main navigation">
+        <a href="#board" id="nav-board"
+          ><span aria-hidden="true">▦</span> Launch board
+          <span class="nav-count" id="nav-count"></span
+        ></a>
+        <a href="#method" id="nav-method"
+          ><span aria-hidden="true">≋</span> Methodology</a
+        >
       </nav>
-      <div class='sidebar-note'>
-        <span class='status-dot'></span> Sealed & offline
+      <div class="sidebar-note">
+        <span class="status-dot"></span> Sealed & offline
         <p>
           A fixed view of the protocol landscape. All estimates use the same
           snapshot.
         </p>
-        <span id='sidebar-date'></span>
+        <span id="sidebar-date"></span>
       </div>
-      <div class='sidebar-bottom'>
+      <div class="sidebar-bottom">
         Independent estimates<br />Built from DefiLlama records
       </div>
     </aside>
-    <div class='workspace'>
-      <header class='topbar'>
+    <div class="workspace">
+      <header class="topbar">
         <div>
-          Research <span>/</span> <strong id='breadcrumb'>Launch board</strong>
+          Research <span>/</span> <strong id="breadcrumb">Launch board</strong>
         </div>
-        <div class='snapshot-stamp'>
-          <span class='status-dot'></span> OFFLINE SNAPSHOT
-          <span id='top-date'></span>
+        <div class="snapshot-stamp">
+          <span class="status-dot"></span> OFFLINE SNAPSHOT
+          <span id="top-date"></span>
         </div>
       </header>
-      <main id='main' tabindex='-1'>
-        <div class='loading'>Loading the sealed research board…</div>
+      <main id="main" tabindex="-1">
+        <div class="loading">Loading the sealed research board…</div>
       </main>
       <footer>
-        <span>Token Radar <span class='footer-dot'>·</span> Sealed DefiLlama
-          snapshot <span id='footer-date'></span></span><span>Conditional market-cap estimates. Allocation and launch timing
-          unverified.</span>
+        <span
+          >Token Radar <span class="footer-dot">·</span> Sealed DefiLlama
+          snapshot <span id="footer-date"></span></span
+        ><span
+          >Conditional market-cap estimates. Allocation and launch timing
+          unverified.</span
+        >
       </footer>
     </div>
-    <noscript>This offline dashboard requires JavaScript. Open board.json to inspect
-      the ranked data.</noscript>
+    <noscript
+      >This offline dashboard requires JavaScript. Open board.json to inspect
+      the ranked data.</noscript
+    >
   </body>
 </html>
